@@ -1,0 +1,1 @@
+!function(){"use strict";var o,e;o=(o,e)=>o*e,e=(o,e)=>o/e,console.log(3),console.log(-1),console.log(o(1,2)),console.log(e(1,2)),setTimeout((()=>{console.log("1")}),1e3),new Promise((o=>{setTimeout((()=>{o("2")}),1e3)})).then((o=>{console.log(o)}))}();
